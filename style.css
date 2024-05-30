@@ -1,0 +1,333 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+ 
+     /* width: 98.5vw;  */
+   background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     justify-content:space-around; 
+     text-align: center;  
+    border: 2px solid; 
+     padding: 0px 10px; 
+     position: sticky;
+     top: 0;
+     z-index: 1;
+   
+}
+.fa-facebook{
+    font-size:30px;
+    color: blue;
+   padding-top: 5px;
+   cursor: pointer;
+}
+.fa-magnifying-glass{
+    margin-left: 0px;
+    cursor: pointer;
+}
+ .box{
+ border: 2px solid;
+ background-color: white;
+ width: 500px;
+ border-radius: 70px;
+ padding-left: 10px;
+ margin-left: 20px;
+} 
+.fa-magnifying-glass{
+    cursor: pointer;
+}
+.input{
+    border: none;
+    width: 460px; 
+    border-radius: 70px;
+    padding: 10px 10px;
+    
+}
+.fa-house-chimney-window{
+    font-size:20px;
+    padding-top: 10px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.fa-tv{
+    font-size:20px;
+    padding-top: 10px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.fa-store{
+    font-size:20px;
+    padding-top: 1px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.fa-circle-user{
+    font-size:20px;
+    padding-top: 10px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.fa-bell{
+    font-size:20px;
+    margin-left: 70px;
+    border: 10pxsolid black;
+    cursor: pointer;
+}
+.fa-facebook-messenger{
+    color: blue;
+    font-size:25px;
+    margin: auto;
+    cursor: pointer;
+   
+    
+}
+.fa-table-cells{
+    font-size:20px;
+    padding-top: 5px;
+    cursor: pointer;
+  
+}
+.profileimg{
+    height: 30px;
+    width: 30px; 
+    padding-top: 7px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    cursor: pointer;
+   
+}
+
+.img{
+    
+    height: 400px;
+    width: 600px;
+    border: 5px solid black;
+    margin-left: 400px;
+    cursor: pointer;
+}
+.sec2{
+     display: flex; 
+   
+}
+.coverimg{
+     display: inline-block; 
+     flex-wrap: wrap;
+     position: relative;
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    border: 5px solid black;
+    margin-left: 450px;
+    margin-top: -30px;
+    cursor:pointer ;
+  
+   
+}
+.sec2 h1{
+     /* display: inline-block; */
+     /* flex-direction:row ; */
+     margin-left: 10px;
+     margin-top: 5px;
+     display: inline;
+
+  
+}
+.span{
+   
+    font-size: 18px;
+}
+
+.sec3{
+    display: inline-block;
+    flex-direction: row;
+   justify-content: space-around; 
+}
+.sec4{
+     display: inline-block;
+     flex-direction: row; 
+}
+.btnedit{
+    display: inline-block;
+     border: 1px solid;
+     padding: 10px 10px;
+     background-color: rgba(0, 0, 255, 0.438);
+      margin-left: 40px; 
+}
+.btnedit:hover{
+    cursor: pointer;
+   background-color: blue;
+}
+.dashbrd{
+    border: 1px solid;
+    padding: 10px 10px;
+}
+.dashbrd:hover{
+    cursor: pointer;
+    background-color: burlywood;
+}
+
+.advertise{
+    border: 1px solid;
+    padding: 10px 10px;
+   
+}
+.advertise:hover{
+    cursor: pointer;
+    background-color:burlywood;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -45px;
+    margin-left: 250px;
+    position: relative; 
+   
+
+}
+.sec5{
+   display: inline-block;
+  
+  
+}
+ .fa-camera{
+    display: inline-block; 
+    font-size: 25px;
+    border: 4px solid white;
+    background-color: aliceblue;
+    border-radius: 100%;
+    padding: 10px 10px;
+     position: relative; 
+     margin-left: 180px;
+     cursor: pointer;
+   
+} 
+.profile1{
+    height: 40px;
+    width: 40px;
+    border: 4px solid rgba(0, 0, 0, 0.993);
+    border-radius: 100%;
+    position: relative;
+    right:2px ;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+.profile2{
+    height: 40px;
+    width: 40px;
+    border: 4px solid rgba(0, 0, 0, 0.993);
+    border-radius: 100%;
+    position: relative;
+    right:18px ;
+    z-index: 2;
+    cursor: pointer;
+}
+.profile3{
+    height: 40px;
+    width: 40px;
+    border: 4px solid rgba(0, 0, 0, 0.993);
+    border-radius: 100%;
+    position: relative;
+    right:32px ;
+    z-index: 3;
+    cursor: pointer;
+}
+.profile4{
+    height: 40px;
+    width: 40px;
+    border: 4px solid rgba(0, 0, 0, 0.993);
+    border-radius: 100%;
+    position: relative;
+    right:47px ;
+    z-index: 4;
+    cursor: pointer;
+}
+.profile5{
+    height: 40px;
+    width: 40px;
+    border: 4px solid rgba(0, 0, 0, 0.993);
+    border-radius: 100%;
+    position: relative;
+    right:60px ;
+    z-index: 5;
+    cursor: pointer;
+}
+.profile6{
+    height: 40px;
+    width: 40px;
+    border: 4px solid rgba(0, 0, 0, 0.993);
+    border-radius: 100%;
+    position: relative;
+    right:72px ;
+    z-index: 6;
+    cursor: pointer;
+}
+.profile7{
+    height: 40px;
+    width: 40px;
+    border: 4px solid rgba(0, 0, 0, 0.993);
+    border-radius: 100%;
+    position: relative;
+    right:85px ;
+    z-index: 7;
+    cursor: pointer;
+}
+.chebtn{
+    border: 1px solid;
+    border-radius: 5px ;
+    padding: 10px 10px;
+   
+}
+.chebtn:hover{
+    background-color:burlywood ;
+  cursor: pointer;
+}
+.hr{
+   margin-top: 5px;
+   margin-left: 100px;
+ }
+.navbar2{
+    padding: 5px 5px;
+    padding-left: 280px; 
+  
+ }
+ .navlist{
+    list-style: none;
+     margin-left: 100px; 
+ }
+ .navlinks{
+    display: inline;
+    font-size: 20px;
+    margin:30px 10px; 
+    padding: 5px;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ .navlinks:hover{
+    background-color: #66666650;
+ }
+ .posts{
+    color: rgba(0, 0, 255, 0.747);
+    text-decoration: underline;
+    font-weight: bold;
+ }
+ .fa-caret-down{
+   padding-left: 10px;
+ }
+ .fa-ellipsis{
+    margin-left: 300px; 
+    border: 1px solid;
+    padding: 5px 10px;
+   
+ }
+ .fa-ellipsis:hover{
+    cursor: pointer;
+    background-color: burlywood;
+ }
